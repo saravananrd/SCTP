@@ -1,0 +1,11 @@
+	browser=chrome
+	url=https://rc.steadfasthub.com/svu/brokers/ANDOBROKER/Login.aspx
+	username = saro
+	password = S@ingapore123
+	headless=false
+	incognito=false
+	
+	highlight = false
+	
+	huburl=
+	remote=false
