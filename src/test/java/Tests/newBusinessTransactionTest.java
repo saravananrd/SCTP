@@ -1,5 +1,6 @@
 package Tests;
 
+import org.openqa.selenium.WebDriver;
 import org.testng.Assert;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
@@ -9,14 +10,18 @@ import ElementUtil.Errors;
 import Pages.quoteRequest;
 
 public class newBusinessTransactionTest extends BaseTest {
+//	
+//	@BeforeClass
+//	
+//	public void newBusSetUp() {
+//		newbusinesstransaction = loginpages.doLogin(prop.getProperty("username"), prop.getProperty("password"));
+//		
+//	}
 	
-	@BeforeClass
-	
-	public void newBusSetUp() {
-		newbusinesstransaction = loginpages.doLogin(prop.getProperty("username"), prop.getProperty("password"));
-		
+	public newBusinessTransactionTest(WebDriver driver) {
+		 
 	}
-	
+
 	@Test
 	public void newPageTitle() {
 		String pbtitle = newbusinesstransaction.bussineTracationtitle();
@@ -29,8 +34,14 @@ public class newBusinessTransactionTest extends BaseTest {
 	
 	@Test
 	public void dataEntryNewBusiness() { 
-		qRequest = newbusinesstransaction.dataEntry();
+		quoteRequest qRequest = newbusinesstransaction.dataEntry();
 		
+	}
+
+	@Test
+	public quoteRequestTest nagigateToRegisterPage() {
+		 
+		return new quoteRequestTest(driver);
 	}
 	
 	

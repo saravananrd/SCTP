@@ -32,8 +32,17 @@ public class LoginPageTest extends BaseTest{
 		//loginpages.doLogin("saro", "S@ingapore");
 		//loginpages.doLogin(prop.getProperty("username").trim(), prop.getProperty("password").trim());
 		newBusinessTransaction newbusTra =loginpages.doLogin(prop.getProperty("username").trim(), prop.getProperty("password").trim());
+		}
+	@Test
+	public void SlinkDispalyed() {
 		
-}
+		Assert.assertTrue(loginpages.singOutlink());
+	}
+	@Test
+	public newBusinessTransactionTest nagigateToRegisterPage() {
+		 
+		return new newBusinessTransactionTest(driver);
+	}
 	
 	
 }

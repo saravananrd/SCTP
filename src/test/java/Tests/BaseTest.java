@@ -21,7 +21,7 @@ public class BaseTest {
  	 
 	
 	LoginPages loginpages;
-	newBusinessTransaction newbusinesstransaction; 
+	newBusinessTransaction newbusinesstransaction;  	 
 	quoteRequest qRequest;
 	selectRisk sRisk;
 	

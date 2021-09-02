@@ -1,7 +1,7 @@
 	browser=chrome
 	url=https://rc.steadfasthub.com/svu/brokers/ANDOBROKER/Login.aspx
 	username = saro
-	password = S@ingapore123
+	password = user123#
 	headless=false
 	incognito=false
 	

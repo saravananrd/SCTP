@@ -1,5 +1,6 @@
 package Tests;
 
+import org.openqa.selenium.WebDriver;
 import org.testng.Assert;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
@@ -11,41 +12,38 @@ import Pages.selectRisk;
 
 public class quoteRequestTest extends BaseTest {
 	
+	//newBusinessTransactionTest NBTTest = new newBusinessTransactionTest();
 	
-	@BeforeClass
-	
-	public void newBusSetUp() {
-		//selectRisk seleRisk = new selectRisk(driver);		
-		qRequest = new quoteRequest(driver);
-		newbusinesstransaction = loginpages.doLogin(prop.getProperty("username"), prop.getProperty("password"));
-		System.out.println("Quote Page****");
-		
-	}
- 
-	 
-//	@Test
-//	public void newPageTitle() {
-//		String ptitle = newbusinesstransaction.bussineTracationtitle();
-//		System.out.println("newbusinesstransaction page title:" + ptitle);
-//		Assert.assertEquals(ptitle, Constants.NB_Page_Title, Errors.NB_Error_Mesg);
-//		
+//	@BeforeClass
+//	
+//	public void newBusSetUp() {
+//		//selectRisk seleRisk = new selectRisk(driver);		
+//		qRequest = new quoteRequest(driver);
+//		newbusinesstransaction = loginpages.doLogin(prop.getProperty("username"), prop.getProperty("password"));
+//		System.out.println("Quote Page****");
 //		
 //	}
+// 
 	
+	public quoteRequestTest(WebDriver driver) {
+		// TODO Auto-generated constructor stub
+	}
+
 	@Test
-	public void dataEntryNewBusiness() {
-		//selectRisk selRisk= qRequest.quotePageEntry();
-		qRequest.quotePageEntry();
+	public void dataEntryNewBusiness() {		 
+		 dataEntryNewBusiness();
+ 
 		
 	}
 	
 	
+
+
+
+ 
 	
-//	@Test(priority=1)
-//	public void loginPageTitleTest(String client, String product, String incDate, String expDate, String saveBtn) {	
-//		newbusinesstransaction.entryNewBusinessTransaction(client, product, incDate, expDate, saveBtn);
-//		
-//
-//	}
+	
+	
+
 	
 	}

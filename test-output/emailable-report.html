@@ -9,19 +9,19 @@
 <table>
 <tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
 <tr><th colspan="7">Default suite</th></tr>
-<tr><td><a href="#t0">Default test</a></td><td class="num">0</td><td class="num">0</td><td class="num attn">1</td><td class="num">8,727</td><td></td><td></td></tr>
+<tr><td><a href="#t0">Default test</a></td><td class="num">3</td><td class="num">0</td><td class="num attn">1</td><td class="num">10,700</td><td></td><td></td></tr>
 </table>
-<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Default suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Default test &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">Tests.quoteRequestTest</td><td><a href="#m0">dataEntryNewBusiness</a></td><td rowspan="1">1630281784547</td><td rowspan="1">81</td></tr></tbody>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Default suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Default test &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">Tests.LoginPageTest</td><td><a href="#m0">SlinkDispalyed</a></td><td rowspan="1">1630538932831</td><td rowspan="1">77</td></tr><tr><th colspan="4">Default test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="3">Tests.LoginPageTest</td><td><a href="#m1">doLoginTest</a></td><td rowspan="1">1630538933001</td><td rowspan="1">3935</td></tr><tr class="passedeven"><td><a href="#m2">loginPageHeaderTest</a></td><td rowspan="1">1630538932938</td><td rowspan="1">61</td></tr><tr class="passedeven"><td><a href="#m3">loginPageTitleTest</a></td><td rowspan="1">1630538932917</td><td rowspan="1">14</td></tr></tbody>
 </table>
-<h2>Default test</h2><h3 id="m0">Tests.quoteRequestTest#dataEntryNewBusiness</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//input[@id=&apos;QuoteRqController_to_ANDO_UAT&apos;]&quot;}
+<h2>Default test</h2><h3 id="m0">Tests.LoginPageTest#SlinkDispalyed</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//a[text()= &apos;Logout saro&apos;]&quot;}
   (Session info: chrome=92.0.4515.159)
 For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
 Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
-System info: host: &apos;ANDO-109592&apos;, ip: &apos;192.168.1.17&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_301&apos;
+System info: host: &apos;ANDO-109592&apos;, ip: &apos;10.1.1.153&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_301&apos;
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 92.0.4515.159, chrome: {chromedriverVersion: 92.0.4515.107 (87a818b10553..., userDataDir: C:\Users\SARAVA~1.DOR\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:65038}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 908ede4c601d024ba9ec4deb0ab05566
-*** Element info: {Using=xpath, value=//input[@id=&apos;QuoteRqController_to_ANDO_UAT&apos;]}
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 92.0.4515.159, chrome: {chromedriverVersion: 92.0.4515.107 (87a818b10553..., userDataDir: C:\Users\SARAVA~1.DOR\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:61631}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: d815a78ed61c0229c6dc9448365797f3
+*** Element info: {Using=xpath, value=//a[text()= &apos;Logout saro&apos;]}
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
 	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
@@ -37,9 +37,9 @@ Session ID: 908ede4c601d024ba9ec4deb0ab05566
 	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
 	at ElementUtil.ElementUtil.getElement(ElementUtil.java:78)
-	at ElementUtil.ElementUtil.doClick(ElementUtil.java:106)
-	at Pages.quoteRequest.quotePageEntry(quoteRequest.java:29)
-	at Tests.quoteRequestTest.dataEntryNewBusiness(quoteRequestTest.java:38)
+	at ElementUtil.ElementUtil.doIsDisplayed(ElementUtil.java:118)
+	at Pages.LoginPages.singOutlink(LoginPages.java:60)
+	at Tests.LoginPageTest.SlinkDispalyed(LoginPageTest.java:39)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
@@ -66,5 +66,8 @@ Session ID: 908ede4c601d024ba9ec4deb0ab05566
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 </div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">Tests.LoginPageTest#doLoginTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m2">Tests.LoginPageTest#loginPageHeaderTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m3">Tests.LoginPageTest#loginPageTitleTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 </body>
 </html>

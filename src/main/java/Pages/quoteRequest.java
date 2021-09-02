@@ -30,8 +30,7 @@ public class quoteRequest {
 		eltUti.doSendKeys(phoneNumber, "121212121");
 		eltUti.doSelectByValue(holdingUnderWriter, "Ando");
 		eltUti.doClick(nextBtn);
-		
-		 return new selectRisk(driver);
+		return new selectRisk(driver);
 	}
 
 }

@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>Default test</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>0/1/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>3/1/0</td>
 </tr><tr>
-<td>Started on:</td><td>Mon Aug 30 12:02:55 NZST 2021</td>
+<td>Started on:</td><td>Thu Sep 02 11:28:46 NZST 2021</td>
 </tr>
-<tr><td>Total time:</td><td>8 seconds (8727 ms)</td>
+<tr><td>Total time:</td><td>10 seconds (10700 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -75,16 +75,16 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='Tests.quoteRequestTest.dataEntryNewBusiness()'><b>dataEntryNewBusiness</b><br>Test class: Tests.quoteRequestTest</td>
-<td><div><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//input[@id=&apos;QuoteRqController_to_ANDO_UAT&apos;]&quot;}
+<td title='Tests.LoginPageTest.SlinkDispalyed()'><b>SlinkDispalyed</b><br>Test class: Tests.LoginPageTest</td>
+<td><div><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//a[text()= &apos;Logout saro&apos;]&quot;}
   (Session info: chrome=92.0.4515.159)
 For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
 Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
-System info: host: &apos;ANDO-109592&apos;, ip: &apos;192.168.1.17&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_301&apos;
+System info: host: &apos;ANDO-109592&apos;, ip: &apos;10.1.1.153&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_301&apos;
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 92.0.4515.159, chrome: {chromedriverVersion: 92.0.4515.107 (87a818b10553..., userDataDir: C:\Users\SARAVA~1.DOR\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:65038}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 908ede4c601d024ba9ec4deb0ab05566
-*** Element info: {Using=xpath, value=//input[@id=&apos;QuoteRqController_to_ANDO_UAT&apos;]}
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 92.0.4515.159, chrome: {chromedriverVersion: 92.0.4515.107 (87a818b10553..., userDataDir: C:\Users\SARAVA~1.DOR\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:61631}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: d815a78ed61c0229c6dc9448365797f3
+*** Element info: {Using=xpath, value=//a[text()= &apos;Logout saro&apos;]}
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
 	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
@@ -100,9 +100,9 @@ Session ID: 908ede4c601d024ba9ec4deb0ab05566
 	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
 	at ElementUtil.ElementUtil.getElement(ElementUtil.java:78)
-	at ElementUtil.ElementUtil.doClick(ElementUtil.java:106)
-	at Pages.quoteRequest.quotePageEntry(quoteRequest.java:29)
-	at Tests.quoteRequestTest.dataEntryNewBusiness(quoteRequestTest.java:38)
+	at ElementUtil.ElementUtil.doIsDisplayed(ElementUtil.java:118)
+	at Pages.LoginPages.singOutlink(LoginPages.java:60)
+	at Tests.LoginPageTest.SlinkDispalyed(LoginPageTest.java:39)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
@@ -128,16 +128,16 @@ Session ID: 908ede4c601d024ba9ec4deb0ab05566
 	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-</pre></div><a href='#' onClick='toggleBox("stack-trace1099552523", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1099552523'><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//input[@id=&apos;QuoteRqController_to_ANDO_UAT&apos;]&quot;}
+</pre></div><a href='#' onClick='toggleBox("stack-trace955324150", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace955324150'><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//a[text()= &apos;Logout saro&apos;]&quot;}
   (Session info: chrome=92.0.4515.159)
 For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
 Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
-System info: host: &apos;ANDO-109592&apos;, ip: &apos;192.168.1.17&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_301&apos;
+System info: host: &apos;ANDO-109592&apos;, ip: &apos;10.1.1.153&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_301&apos;
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 92.0.4515.159, chrome: {chromedriverVersion: 92.0.4515.107 (87a818b10553..., userDataDir: C:\Users\SARAVA~1.DOR\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:65038}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 908ede4c601d024ba9ec4deb0ab05566
-*** Element info: {Using=xpath, value=//input[@id=&apos;QuoteRqController_to_ANDO_UAT&apos;]}
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 92.0.4515.159, chrome: {chromedriverVersion: 92.0.4515.107 (87a818b10553..., userDataDir: C:\Users\SARAVA~1.DOR\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:61631}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: d815a78ed61c0229c6dc9448365797f3
+*** Element info: {Using=xpath, value=//a[text()= &apos;Logout saro&apos;]}
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
 	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
@@ -153,9 +153,9 @@ Session ID: 908ede4c601d024ba9ec4deb0ab05566
 	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
 	at ElementUtil.ElementUtil.getElement(ElementUtil.java:78)
-	at ElementUtil.ElementUtil.doClick(ElementUtil.java:106)
-	at Pages.quoteRequest.quotePageEntry(quoteRequest.java:29)
-	at Tests.quoteRequestTest.dataEntryNewBusiness(quoteRequestTest.java:38)
+	at ElementUtil.ElementUtil.doIsDisplayed(ElementUtil.java:118)
+	at Pages.LoginPages.singOutlink(LoginPages.java:60)
+	at Tests.LoginPageTest.SlinkDispalyed(LoginPageTest.java:39)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
@@ -183,7 +183,30 @@ Session ID: 908ede4c601d024ba9ec4deb0ab05566
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 </pre></div></td>
 <td>0</td>
-<td>Tests.quoteRequestTest@3e6fa38a</td></tr>
+<td>Tests.LoginPageTest@47c62251</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='Tests.LoginPageTest.doLoginTest()'><b>doLoginTest</b><br>Test class: Tests.LoginPageTest</td>
+<td></td>
+<td>3</td>
+<td>Tests.LoginPageTest@47c62251</td></tr>
+<tr>
+<td title='Tests.LoginPageTest.loginPageHeaderTest()'><b>loginPageHeaderTest</b><br>Test class: Tests.LoginPageTest</td>
+<td></td>
+<td>0</td>
+<td>Tests.LoginPageTest@47c62251</td></tr>
+<tr>
+<td title='Tests.LoginPageTest.loginPageTitleTest()'><b>loginPageTitleTest</b><br>Test class: Tests.LoginPageTest</td>
+<td></td>
+<td>0</td>
+<td>Tests.LoginPageTest@47c62251</td></tr>
 </table><p>
 </body>
 </html>

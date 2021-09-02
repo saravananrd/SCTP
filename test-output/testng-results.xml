@@ -1,43 +1,39 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="1" ignored="0" total="1" passed="0">
+<testng-results skipped="0" failed="1" ignored="0" total="4" passed="3">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="8727" started-at="2021-08-30T00:02:55Z" finished-at="2021-08-30T00:03:04Z">
+  <suite name="Default suite" duration-ms="10700" started-at="2021-09-01T23:28:46Z" finished-at="2021-09-01T23:28:56Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="8727" started-at="2021-08-30T00:02:55Z" finished-at="2021-08-30T00:03:04Z">
-      <class name="Tests.quoteRequestTest">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:Tests.quoteRequestTest@3e6fa38a]" name="setUp" is-config="true" duration-ms="5895" started-at="2021-08-30T00:02:55Z" finished-at="2021-08-30T00:03:01Z">
+    <test name="Default test" duration-ms="10700" started-at="2021-09-01T23:28:46Z" finished-at="2021-09-01T23:28:56Z">
+      <class name="Tests.LoginPageTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:Tests.LoginPageTest@47c62251]" name="setUp" is-config="true" duration-ms="6556" started-at="2021-09-01T23:28:46Z" finished-at="2021-09-01T23:28:52Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="newBusSetUp()[pri:0, instance:Tests.quoteRequestTest@3e6fa38a]" name="newBusSetUp" is-config="true" duration-ms="2693" started-at="2021-08-30T00:03:01Z" finished-at="2021-08-30T00:03:04Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- newBusSetUp -->
-        <test-method status="FAIL" signature="dataEntryNewBusiness()[pri:0, instance:Tests.quoteRequestTest@3e6fa38a]" name="dataEntryNewBusiness" duration-ms="81" started-at="2021-08-30T00:03:04Z" finished-at="2021-08-30T00:03:04Z">
+        <test-method status="FAIL" signature="SlinkDispalyed()[pri:0, instance:Tests.LoginPageTest@47c62251]" name="SlinkDispalyed" duration-ms="77" started-at="2021-09-01T23:28:52Z" finished-at="2021-09-01T23:28:52Z">
           <exception class="org.openqa.selenium.NoSuchElementException">
             <message>
-              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//input[@id='QuoteRqController_to_ANDO_UAT']"}
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//a[text()= 'Logout saro']"}
   (Session info: chrome=92.0.4515.159)
 For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'ANDO-109592', ip: '192.168.1.17', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_301'
+System info: host: 'ANDO-109592', ip: '10.1.1.153', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_301'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 92.0.4515.159, chrome: {chromedriverVersion: 92.0.4515.107 (87a818b10553..., userDataDir: C:\Users\SARAVA~1.DOR\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:65038}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 908ede4c601d024ba9ec4deb0ab05566
-*** Element info: {Using=xpath, value=//input[@id='QuoteRqController_to_ANDO_UAT']}]]>
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 92.0.4515.159, chrome: {chromedriverVersion: 92.0.4515.107 (87a818b10553..., userDataDir: C:\Users\SARAVA~1.DOR\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:61631}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: d815a78ed61c0229c6dc9448365797f3
+*** Element info: {Using=xpath, value=//a[text()= 'Logout saro']}]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//input[@id='QuoteRqController_to_ANDO_UAT']"}
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//a[text()= 'Logout saro']"}
   (Session info: chrome=92.0.4515.159)
 For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'ANDO-109592', ip: '192.168.1.17', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_301'
+System info: host: 'ANDO-109592', ip: '10.1.1.153', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_301'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 92.0.4515.159, chrome: {chromedriverVersion: 92.0.4515.107 (87a818b10553..., userDataDir: C:\Users\SARAVA~1.DOR\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:65038}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 908ede4c601d024ba9ec4deb0ab05566
-*** Element info: {Using=xpath, value=//input[@id='QuoteRqController_to_ANDO_UAT']}
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 92.0.4515.159, chrome: {chromedriverVersion: 92.0.4515.107 (87a818b10553..., userDataDir: C:\Users\SARAVA~1.DOR\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:61631}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: d815a78ed61c0229c6dc9448365797f3
+*** Element info: {Using=xpath, value=//a[text()= 'Logout saro']}
 at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
 at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
@@ -53,9 +49,9 @@ at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver
 at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
 at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
 at ElementUtil.ElementUtil.getElement(ElementUtil.java:78)
-at ElementUtil.ElementUtil.doClick(ElementUtil.java:106)
-at Pages.quoteRequest.quotePageEntry(quoteRequest.java:29)
-at Tests.quoteRequestTest.dataEntryNewBusiness(quoteRequestTest.java:38)
+at ElementUtil.ElementUtil.doIsDisplayed(ElementUtil.java:118)
+at Pages.LoginPages.singOutlink(LoginPages.java:60)
+at Tests.LoginPageTest.SlinkDispalyed(LoginPageTest.java:39)
 at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
@@ -86,8 +82,20 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           </exception> <!-- org.openqa.selenium.NoSuchElementException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- dataEntryNewBusiness -->
-      </class> <!-- Tests.quoteRequestTest -->
+        </test-method> <!-- SlinkDispalyed -->
+        <test-method status="PASS" signature="loginPageTitleTest()[pri:1, instance:Tests.LoginPageTest@47c62251]" name="loginPageTitleTest" duration-ms="14" started-at="2021-09-01T23:28:52Z" finished-at="2021-09-01T23:28:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginPageTitleTest -->
+        <test-method status="PASS" signature="loginPageHeaderTest()[pri:2, instance:Tests.LoginPageTest@47c62251]" name="loginPageHeaderTest" duration-ms="61" started-at="2021-09-01T23:28:52Z" finished-at="2021-09-01T23:28:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginPageHeaderTest -->
+        <test-method status="PASS" signature="doLoginTest()[pri:3, instance:Tests.LoginPageTest@47c62251]" name="doLoginTest" duration-ms="3935" started-at="2021-09-01T23:28:53Z" finished-at="2021-09-01T23:28:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doLoginTest -->
+      </class> <!-- Tests.LoginPageTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
